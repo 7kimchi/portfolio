@@ -27,10 +27,10 @@ type SocialLink = {
   link: string
 }
 
-const HETAKU_CDN = 'https://s1.hetaku.dev/59ae349f-1bcd-43e3-9438-c65ee3947f11/'
+const HETAKU_CDN = 'https://s1.hetaku.dev/'
 
 /** Header avatar. Preloaded in the site shell, so keep the two in sync. */
-export const AVATAR_IMAGE = `${HETAKU_CDN}a07fc64156634d3130273f71d66fed085bbc2a6f2e5b5b4ffbefcaafc8f4f31b.jpeg`
+export const AVATAR_IMAGE = `${HETAKU_CDN}59ae349f-1bcd-43e3-9438-c65ee3947f11/p/dc9ad126-7b2f-4f41-838b-3b1dc11ef373/15a57e9469a55d123df670fadf2a2ea1cb07e6d45d8af586d95fdcfc6f17a90e/5b5ecd41-f44a-4e8a-9dc2-42b10700669f.jpeg`
 
 export const PROJECTS: Project[] = [
   {
